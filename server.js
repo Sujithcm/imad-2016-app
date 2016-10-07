@@ -3,6 +3,7 @@ var morgan = require('morgan');
 var path = require('path');
 
 var app = express();
+<meta name = "viewport" content="width=device-width, initial-scale=1"/>
 app.use(morgan('combined'));
 
 app.get('/', function (req, res) {
